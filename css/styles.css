@@ -1,0 +1,191 @@
+html,
+* {
+	box-sizing: border-box;
+}
+
+body {
+	color: white;
+	background-color: black;
+	font-family: "Open Sans", sans-serif;
+}
+
+header {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+
+.content {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content h1 {
+	position: relative;
+}
+
+.content h1 span {
+	visibility: hidden;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	position: absolute;
+}
+.content h1 img {
+	filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.5));
+}
+.content h2 {
+	font-weight: 300;
+	font-size: 60px;
+	margin: 0;
+	text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+.content h3 {
+	margin-bottom: 50px;
+}
+.icons {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+}
+
+.icons li {
+	margin: 0 20px;
+}
+
+.icons li i {
+	font-size: 30px;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 0 10px;
+	transition: 0.2s ease-in;
+}
+.icons li a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: white;
+}
+.icons li:hover i {
+	background-color: white;
+	color: black;
+}
+.logo {
+	max-width: 300px;
+}
+
+#bgVideo {
+	display: none;
+}
+
+.contact-form {
+	position: fixed;
+	display: none;
+	flex-direction: column;
+	width: 100%;
+	max-width: 500px;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 100;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 50px;
+	border-radius: 20px;
+	font-size: 20px;
+}
+
+input,
+textarea {
+	background-color: white;
+	padding: 10px;
+	font-size: 20px;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+textarea {
+	height: 150px;
+}
+
+button {
+	padding: 10px;
+	background-color: #cc0000;
+	color: white;
+	border: none;
+	width: 100%;
+	display: block;
+	margin-top: 20px;
+}
+
+button.form-trigger {
+	max-width: 300px;
+	font-size: 20px;
+	padding: 20px;
+	margin: 0 0 50px;
+	cursor: pointer;
+}
+
+button.form-trigger:hover {
+	border: 1px solid #cc0000;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.close {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.close::before,
+.close::after {
+	content: "";
+	display: block;
+	width: 3px;
+	height: 100%;
+	background-color: white;
+	position: absolute;
+}
+
+.close::before {
+	transform: rotate(45deg);
+}
+
+.close::after {
+	transform: rotate(-45deg);
+}
+
+@media (min-width: 768px) {
+	#bgVideo {
+		display: block;
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+}
