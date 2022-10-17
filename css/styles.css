@@ -161,6 +161,8 @@ button {
 	display: flex;
 	margin-top: 20px;
 	max-width: 300px;
+	font-size: 20px;
+	cursor: pointer;
 }
 
 button a {
@@ -168,12 +170,6 @@ button a {
 	padding: 20px;
 	text-decoration: none;
 	width: 100%;
-}
-
-button.form-trigger {
-	max-width: 300px;
-	font-size: 20px;
-	cursor: pointer;
 }
 
 button.form-trigger:hover {
