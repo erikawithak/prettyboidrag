@@ -216,6 +216,15 @@ button.form-trigger:hover {
 	opacity: 0;
 }
 
+.photos {
+	padding-top: 40px;	
+}
+
+.photos eapp-photo-gallery-photo-gallery-heading {
+	text-align: left;
+	color: white;
+}
+
 @media (min-width: 768px) {
 	#bgVideo {
 		display: block;
