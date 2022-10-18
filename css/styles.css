@@ -220,9 +220,10 @@ button.form-trigger:hover {
 	padding-top: 40px;	
 }
 
-.photos .eapp-photo-gallery-photo-gallery-heading {
+.photos div.eapp-photo-gallery-photo-gallery-heading {
 	text-align: left;
-	color: white;
+	color: white !important;
+	padding-left: 40px;
 }
 
 @media (min-width: 768px) {
