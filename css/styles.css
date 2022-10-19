@@ -223,6 +223,7 @@ button.form-trigger:hover {
 .photos div.eapp-photo-gallery-photo-gallery-heading {
 	text-align: left;
 	color: white !important;
+	font-size: 24px !important;
 	padding-left: 40px;
 }
 
