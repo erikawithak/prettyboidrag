@@ -15,6 +15,12 @@ header {
 	height: 100vh;
 }
 
+section h3 {
+	font-weight: 400;
+	margin: 0;
+	padding-left: 40px;
+}
+
 .content {
 	position: absolute;
 	z-index: 1;
