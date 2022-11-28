@@ -14,3 +14,12 @@ section .content, section .section-image {
     width: 100%;
     max-width: 50%;
 }
+
+section .section-image {
+ background-size: cover;
+  background-position: center center;
+}
+
+#what .section-image {
+ background-image: url('images/PBD_8_14_9.jpeg');
+}
