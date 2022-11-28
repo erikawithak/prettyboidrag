@@ -4,6 +4,14 @@
   background-position: center center;
 }
 
+.content h1 {
+  margin-bottom: 200px;
+}
+
+.logo {
+ max-width: 150px; 
+}
+
 section {
   display: flex;
   background-color: #fff;
