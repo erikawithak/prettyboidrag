@@ -5,10 +5,12 @@
 }
 
 section {
+  display: flex;
   background-color: #fff;
   color: #000;
 }
 
-.content {
-
+section .content, section .section-image {
+    width: 100%;
+    max-width: 50%;
 }
