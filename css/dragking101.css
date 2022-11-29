@@ -21,7 +21,7 @@ section .content h2 {
   font-weight: 600;
 }
 
-.content p {
+.content p, .content li {
  font-size: 20px; 
  line-height: 1.4;
 }
