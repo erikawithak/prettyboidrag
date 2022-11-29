@@ -4,8 +4,9 @@
   background-position: center center;
 }
 
-.content {
+section .content {
  position: static; 
+ background-color: #fff;
 }
 
 .content h1 {
@@ -24,6 +25,7 @@ section {
   display: flex;
   background-color: #fff;
   color: #000;
+  min-height: 600px;
 }
 
 section .content, section .section-image {
