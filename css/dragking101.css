@@ -4,6 +4,10 @@
   background-position: center center;
 }
 
+.content {
+ position: static; 
+}
+
 .content h1 {
   margin-bottom: 200px;
 }
