@@ -15,12 +15,12 @@ header {
 	height: 100vh;
 }
 
-header a {
+header .event-info a {
  text-decoration: none;
  color: #fff;
 }
 
-header a:hover {
+header .event-info a:hover {
  color: #cc0000;
 }
 
