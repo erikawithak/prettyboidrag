@@ -49,5 +49,5 @@ section .section-image {
 }
 
 #what .section-image {
- background-image: url('images/PBD_8_14_9.jpeg');
+ background-image: url('../images/PBD_8_14_9.jpeg');
 }
