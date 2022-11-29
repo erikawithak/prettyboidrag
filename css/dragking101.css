@@ -12,6 +12,10 @@
  max-width: 150px; 
 }
 
+.button-container {
+  justify-content: center;  
+}
+
 section {
   display: flex;
   background-color: #fff;
