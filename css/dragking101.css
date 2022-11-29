@@ -16,11 +16,14 @@ header .content h1 {
 
 section .content h2 {
  width: 100%;
-  text-shadow: none;
+ text-shadow: none;
+ font-size: 42px;
+  font-weight: 600;
 }
 
 .content p {
  font-size: 20px; 
+ line-height: 1.4;
 }
 
 .logo {
