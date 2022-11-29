@@ -7,10 +7,20 @@
 section .content {
  position: static; 
  background-color: #fff;
+ padding: 100px 50px 0; 
 }
 
-.content h1 {
+header .content h1 {
   margin-bottom: 200px;
+}
+
+section .content h2 {
+ width: 100%;
+  text-shadow: none;
+}
+
+.content p {
+ font-size: 20px; 
 }
 
 .logo {
