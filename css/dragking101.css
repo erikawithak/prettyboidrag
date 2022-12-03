@@ -5,6 +5,7 @@
 }
 
 section .content {
+ align-items: start;
  position: static; 
  background-color: #fff;
  padding: 100px 50px 0; 
