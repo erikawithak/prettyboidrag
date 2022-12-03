@@ -22,10 +22,14 @@ section .content h2 {
   font-weight: 600;
 }
 
-.content p, .content li {
+section .content p, setion .content li {
  font-size: 18px; 
  line-height: 1.6;
  text-align: left;
+}
+
+section .content li {
+  margin-bottom: 5px;
 }
 
 .logo {
