@@ -30,6 +30,10 @@ section h3 {
 	padding-left: 40px;
 }
 
+section .eapps-widget {
+	width: 100%;
+}
+
 .content {
 	position: absolute;
 	z-index: 1;
