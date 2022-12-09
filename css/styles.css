@@ -30,6 +30,10 @@ section h3 {
 	padding-left: 40px;
 }
 
+section .content {
+	position: relative;
+}
+
 section [class*="eapps-widget"] {
 	width: 100%;
 }
