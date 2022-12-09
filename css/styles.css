@@ -34,7 +34,7 @@ section .content {
 	position: relative;
 }
 
-section [class*="eapps-widget"] {
+section [class*="elfsight-app"] {
 	width: 100%;
 }
 
