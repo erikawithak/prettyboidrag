@@ -94,6 +94,7 @@ section [class*="elfsight-app"] {
 	font-size: 60px;
 	margin: 0 0 50px;
 	text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+	text-align: center;
 }
 .content h3 {
 	font-weight: 600;
