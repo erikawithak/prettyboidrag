@@ -89,7 +89,7 @@ section [class*="elfsight-app"] {
 .content h2 {
 	font-weight: 300;
 	font-size: 60px;
-	margin: 0;
+	margin: 0 0 20px;
 	text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 .content h3 {
