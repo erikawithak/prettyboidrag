@@ -13,6 +13,7 @@ header {
 	position: relative;
 	width: 100%;
 	height: 100vh;
+	background-image: 
 }
 
 header .event-info a {
@@ -125,7 +126,7 @@ section [class*="elfsight-app"] {
 	color: black;
 }
 .logo {
-	max-width: 300px;
+	max-width: 200px;
 }
 
 #bgVideo {
@@ -169,7 +170,7 @@ textarea {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 	margin: 0 0 50px;
 	width: 100%;
     	max-width: 650px;
@@ -251,13 +252,13 @@ button.form-trigger:hover {
 }
 
 @media (min-width: 768px) {
-	#bgVideo {
+/* 	#bgVideo {
 		display: block;
 		object-fit: cover;
 		width: 100%;
 		height: 100%;
 		position: relative;
-	}
+	} */
 	
 	.button-container {
 		flex-direction: row;
