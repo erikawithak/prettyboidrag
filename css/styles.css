@@ -12,6 +12,18 @@ body {
     	background-position: center center; 
 	min-height: 100vh;
 	paddding: 50px 0;
+	position: relative;
+}
+
+body:after {
+	content: '';
+	display: block;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	width: 100%;
+	bottom: 0;
+	
 }
 
 /* header {
@@ -58,7 +70,6 @@ section [class*="elfsight-app"] {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: rgba(0, 0, 0, 0.7);
 }
 
 .content h1 {
