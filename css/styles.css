@@ -75,6 +75,7 @@ section [class*="elfsight-app"] {
 
 .content h1 {
 	position: relative;
+	text-align: center;
 }
 
 .content h1 span {
