@@ -27,6 +27,10 @@ header .event-info a:hover {
  color: #cc0000;
 }
 
+header .video {
+ display: none;	
+}
+
 section h3 {
 	font-weight: 400;
 	margin: 0 0 20px;
@@ -265,5 +269,10 @@ button.form-trigger:hover {
 	.button-container {
 		flex-direction: row;
 
+	}
+	
+	header .video {
+		width: 100%;
+		max-width: 80%;
 	}
 }
