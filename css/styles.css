@@ -272,6 +272,7 @@ button.form-trigger:hover {
 	}
 	
 	header .video {
+		display: block;
 		width: 100%;
 		max-width: 80%;
 	}
