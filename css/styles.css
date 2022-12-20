@@ -43,7 +43,9 @@ header .event-info a:hover {
 }
 
 header .vimeo {
- display: none;	
+ 	width: 100%;
+	max-width: 100%;
+	padding: 62.25% 0 0 0;
 }
 
 section h3 {
@@ -302,5 +304,6 @@ button.form-trigger:hover {
 		display: block;
 		width: 100%;
 		max-width: 60%;
+		padding: 34.25% 0 0 0;
 	}
 }
