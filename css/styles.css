@@ -71,6 +71,7 @@ section [class*="elfsight-app"] {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding: 20px 0;
 }
 
 .content h1 {
@@ -282,6 +283,10 @@ button.form-trigger:hover {
 		height: 100%;
 		position: relative;
 	} */
+	
+	.content {
+		padding: 0;	
+	}
 	
 	.button-container {
 		flex-direction: row;
