@@ -42,7 +42,7 @@ header .event-info a:hover {
  color: #cc0000;
 }
 
-header .vimeo {
+.vimeo {
  	width: 100%;
 	max-width: 100%;
 	padding: 62.25% 0 0 0;
@@ -314,12 +314,8 @@ button.form-trigger:hover {
 	}
 	
 	.vimeo {
-		position: relative;
-		display: block;
-		width: 100%;
 		max-width: 60%;
-		margin: 0 auto;
-		padding: 56.25% 0 0 0;
+		padding: 34.25% 0 0 0;
 	}
 
 	.vimeo iframe {
