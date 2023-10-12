@@ -1,6 +1,9 @@
 html,
 * {
 	box-sizing: border-box;
+}
+
+html {
 	line-height: 0;
 }
 
